@@ -34,5 +34,5 @@ Desenvolvedor de software. Trabalho com aplicações web e mobile, e com projeto
 ## Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RyanFrag&hide_border=true&background=07090D&ring=3DFFF3&fire=C6FF4A&currStreakLabel=FF3CAC&sideLabels=C8D6DC&dates=8EA0AA&stroke=1C2A30" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=RyanFrag&theme=github-dark&hide_border=true&currStreakNum=58A6FF&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681&ring=58A6FF&fire=F78166&stroke=30363D&background=0D1117" alt="GitHub streak" />
 </p>
