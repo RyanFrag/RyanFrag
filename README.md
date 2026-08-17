@@ -4,10 +4,35 @@ Desenvolvedor de software. Trabalho com aplicações web e mobile, e com projeto
 
 ## Conhecimentos
 
-**Linguagens:** TypeScript, JavaScript, Java, Kotlin, C#, Python, PHP
+**Linguagens**
 
-**Web e backend:** Angular, Spring Boot, HTML, CSS
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
-**Mobile:** Ionic, React Native, Android
+**Web e backend**
 
-**Jogos:** Unity
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+
+**Mobile**
+
+![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=flat-square&logo=ionic&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+**Jogos**
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+
+## Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=RyanFrag&hide_border=true&background=07090D&ring=3DFFF3&fire=C6FF4A&currStreakLabel=FF3CAC&sideLabels=C8D6DC&dates=8EA0AA&stroke=1C2A30" alt="GitHub streak" />
+</p>
