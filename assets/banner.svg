@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="RyanFrag arcade terminal">
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3140"/>
+      <stop offset="45%" stop-color="#161920"/>
+      <stop offset="100%" stop-color="#0c0e12"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07131a"/>
+      <stop offset="55%" stop-color="#05080c"/>
+      <stop offset="100%" stop-color="#0a0610"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3dfff3" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#3dfff3" stop-opacity="0.28"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="42%" r="62%">
+      <stop offset="40%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="hp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3cac"/>
+      <stop offset="100%" stop-color="#ff8ac4"/>
+    </linearGradient>
+    <linearGradient id="mp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3dfff3"/>
+      <stop offset="100%" stop-color="#7dfffb"/>
+    </linearGradient>
+    <linearGradient id="xp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c6ff4a"/>
+      <stop offset="100%" stop-color="#eeff99"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="6" patternUnits="userSpaceOnUse">
+      <rect width="4" height="3" fill="#9ff" opacity="0.045"/>
+    </pattern>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#3dfff3" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <clipPath id="crt">
+      <rect x="48" y="36" width="1104" height="348" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bezel)"/>
+  <rect x="10" y="10" width="1180" height="400" rx="22" fill="none" stroke="#3a4252" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="384" rx="20" fill="none" stroke="#0a0c10" stroke-width="6"/>
+
+  <circle cx="38" cy="38" r="5" fill="#0a0c10" stroke="#4a5364" stroke-width="2"/>
+  <circle cx="1162" cy="38" r="5" fill="#0a0c10" stroke="#4a5364" stroke-width="2"/>
+  <circle cx="38" cy="382" r="5" fill="#0a0c10" stroke="#4a5364" stroke-width="2"/>
+  <circle cx="1162" cy="382" r="5" fill="#0a0c10" stroke="#4a5364" stroke-width="2"/>
+
+  <g clip-path="url(#crt)">
+    <rect x="48" y="36" width="1104" height="348" fill="url(#screen)"/>
+    <rect x="48" y="36" width="1104" height="348" fill="url(#grid)"/>
+    <rect x="48" y="250" width="1104" height="134" fill="url(#floor)"/>
+
+    <g opacity="0.35" stroke="#3dfff3" stroke-width="1">
+      <line x1="120" y1="250" x2="0" y2="384"/>
+      <line x1="240" y1="250" x2="80" y2="384"/>
+      <line x1="360" y1="250" x2="220" y2="384"/>
+      <line x1="480" y1="250" x2="400" y2="384"/>
+      <line x1="600" y1="250" x2="600" y2="384"/>
+      <line x1="720" y1="250" x2="800" y2="384"/>
+      <line x1="840" y1="250" x2="980" y2="384"/>
+      <line x1="960" y1="250" x2="1120" y2="384"/>
+      <line x1="1080" y1="250" x2="1200" y2="384"/>
+      <path d="M48 270 H1152 M48 300 H1152 M48 340 H1152" fill="none"/>
+    </g>
+
+    <g fill="none" stroke="#3dfff3" stroke-width="2" opacity="0.85">
+      <path d="M70 58 h36 m-36 0 v28"/>
+      <path d="M1130 58 h-36 m36 0 v28"/>
+      <path d="M70 362 h36 m-36 0 v-28"/>
+      <path d="M1130 362 h-36 m36 0 v-28"/>
+    </g>
+
+    <g font-family="Consolas, 'Courier New', monospace" fill="#7d8b96" font-size="13" letter-spacing="1.6">
+      <text x="92" y="78">FRAG-OS v2.6</text>
+      <text x="600" y="78" text-anchor="middle">IFSC // GAROPABA</text>
+      <text x="1108" y="78" text-anchor="end">SYS.ONLINE</text>
+    </g>
+
+    <g class="live">
+      <circle cx="1028" cy="73" r="5" fill="#c6ff4a" filter="url(#glow)"/>
+      <text x="1040" y="78" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#c6ff4a" letter-spacing="2">LIVE</text>
+    </g>
+
+    <g filter="url(#glow)">
+      <text class="ghost magenta" x="602" y="168" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" letter-spacing="14" fill="#ff3cac">RYANFRAG</text>
+      <text class="ghost cyan" x="598" y="168" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" letter-spacing="14" fill="#3dfff3">RYANFRAG</text>
+      <text x="600" y="168" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="700" letter-spacing="14" fill="#f4fffb">RYANFRAG</text>
+    </g>
+
+    <text x="600" y="206" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#c6ff4a" letter-spacing="3.2">
+      FULLSTACK · MOBILE · GAME DEV
+    </text>
+    <text x="600" y="230" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8ea0aa" letter-spacing="1.4">
+      quem joga também programa  ·  quem programa também ensina
+    </text>
+
+    <g font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#9aadb6">
+      <text x="160" y="278">HP  café</text>
+      <rect x="250" y="267" width="220" height="12" rx="2" fill="#12161c" stroke="#2a3340"/>
+      <rect x="252" y="269" width="176" height="8" rx="1" fill="url(#hp)"/>
+
+      <text x="500" y="278">MP  foco</text>
+      <rect x="590" y="267" width="220" height="12" rx="2" fill="#12161c" stroke="#2a3340"/>
+      <rect x="592" y="269" width="198" height="8" rx="1" fill="url(#mp)"/>
+
+      <text x="840" y="278">XP  ship</text>
+      <rect x="920" y="267" width="160" height="12" rx="2" fill="#12161c" stroke="#2a3340"/>
+      <rect x="922" y="269" width="128" height="8" rx="1" fill="url(#xp)"/>
+    </g>
+
+    <rect x="70" y="300" width="1060" height="46" rx="6" fill="#05070a" stroke="#1c2c32" stroke-width="1.5"/>
+    <text x="88" y="328" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3dfff3">ryan@frag:~$</text>
+    <text class="type" x="208" y="328" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#e8fff8">cat identity.txt</text>
+    <rect class="cursor" x="352" y="314" width="9" height="18" fill="#c6ff4a"/>
+
+    <rect x="48" y="36" width="1104" height="348" fill="url(#scan)" class="scanmove"/>
+    <rect x="48" y="36" width="1104" height="348" fill="url(#vignette)"/>
+    <rect class="sweep" x="48" y="36" width="1104" height="28" fill="#3dfff3" opacity="0.06"/>
+  </g>
+
+  <circle class="led" cx="80" cy="400" r="4" fill="#c6ff4a"/>
+  <text x="94" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#6d7b86" letter-spacing="1.4">POWER</text>
+  <text x="1106" y="404" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#6d7b86" letter-spacing="1.8">INSERT COFFEE TO CONTINUE</text>
+
+  <style>
+    .live { animation: blink 1.8s steps(1, end) infinite; }
+    .led { animation: blink 1.8s steps(1, end) infinite; }
+    .cursor { animation: blink 1.05s steps(1, end) infinite; }
+    .ghost.magenta { animation: glitchA 3.6s infinite; }
+    .ghost.cyan { animation: glitchB 3.6s infinite; }
+    .sweep { animation: sweep 4.8s linear infinite; }
+    .scanmove { animation: scan 7s linear infinite; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0.15; }
+    }
+    @keyframes glitchA {
+      0%, 88%, 100% { transform: translate(0, 0); opacity: 0.55; }
+      90% { transform: translate(4px, -1px); opacity: 0.8; }
+      92% { transform: translate(-5px, 2px); opacity: 0.4; }
+      94% { transform: translate(3px, 0); opacity: 0.7; }
+    }
+    @keyframes glitchB {
+      0%, 88%, 100% { transform: translate(0, 0); opacity: 0.5; }
+      91% { transform: translate(-4px, 1px); opacity: 0.75; }
+      93% { transform: translate(6px, -2px); opacity: 0.35; }
+    }
+    @keyframes sweep {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(320px); }
+    }
+    @keyframes scan {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(6px); }
+    }
+  </style>
+</svg>
